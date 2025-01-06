@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProyectoTienda</string>
+    <string name="hint_obligatorio"><font color="@color/red">*</font>* Campo obligatorio</string>
+</resources>

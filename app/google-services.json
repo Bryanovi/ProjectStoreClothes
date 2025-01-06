@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632266748737",
+    "project_id": "tiendaropa-7839b",
+    "storage_bucket": "tiendaropa-7839b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632266748737:android:d3d3506795045232a067c0",
+        "android_client_info": {
+          "package_name": "com.example.proyectotienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632266748737-crbf5o40grn1k6oleteoslcv9pdj2k11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTRB2Tqwzmdx7Rp0IDwk27UkKBCXnG5J8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632266748737-crbf5o40grn1k6oleteoslcv9pdj2k11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

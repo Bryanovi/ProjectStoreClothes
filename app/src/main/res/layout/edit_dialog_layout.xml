@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/newPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/dollar"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese el Precio"
+        android:paddingStart="12dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newBrand" />
+
+    <EditText
+        android:id="@+id/newStar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/star1"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese la Calificación"
+        android:paddingStart="12dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newDescription" />
+
+    <EditText
+        android:id="@+id/newBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/letras"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese la Marca"
+        android:paddingStart="12dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newTitle" />
+
+    <EditText
+        android:id="@+id/newDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/letras"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese la Descripcion"
+        android:paddingStart="12dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPrice" />
+
+    <EditText
+        android:id="@+id/newSize"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/letras"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese el Tamaño"
+        android:paddingStart="12dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newStar" />
+
+    <EditText
+        android:id="@+id/newTitle"
+        android:layout_width="wrap_content"
+
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/letras"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese el Titulo"
+
+
+        android:paddingStart="12dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newPicUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/efecto_redondeo"
+        android:drawableStart="@drawable/link"
+        android:drawablePadding="15dp"
+        android:ems="16"
+        android:hint="Ingrese el URL Imagen"
+        android:paddingStart="12dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newSize" />
+</androidx.constraintlayout.widget.ConstraintLayout>
